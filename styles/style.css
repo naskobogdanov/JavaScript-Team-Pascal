@@ -11,10 +11,15 @@ body {
     background-color: rgba(112, 114, 117, 0.4);
 }
 
-header > h1 {
+header > h1, header > h2 {
     text-align: center;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.1em;
     font-size: 2.3em;
     margin-top: 0;
 
+}
+button{
+    font-size: 2.0em;
+    margin-top: 50px;
+    margin-left: 60px;
 }
