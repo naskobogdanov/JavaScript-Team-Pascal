@@ -3,12 +3,17 @@
 
 $(document).ready(function () {
     $('#easyLev').hide();
+    $('#middleLev').hide();
     $('#hardLev').hide();
     $('.question').hide();
     $('.begin').hide();
 
     $('#lev1').click(function () {
         $('#easyLev').slideToggle(100);
+
+    });
+    $('#lev2').click(function () {
+        $('#middleLev').slideToggle(100);
 
     });
     $('#lev3').click(function () {
@@ -18,6 +23,8 @@ $(document).ready(function () {
 
 });
 
+
+
 $(document).ready(function(){
    $('#lev2').add()
 });
@@ -25,21 +32,18 @@ $(document).ready(function(){
 //It's makes frond page style.
 $(document).ready(function(){
     $('body').css({
-        'background-image':'url(images/background.png)',
+        'background-image':'url(images/images.jpg)',
         'font-family':'Arial, "Helvetica", sans-serif',
         'font-size':'2.0em'
     });
-    $('img').css({
-        'width':'250px',
-        'position':'absolute',
-        'margin-left':'240px'
-    });
+
+
     $('#wrapper')
         .css({
             'margin':'0 auto',
             'width':'850px',
             'height':'600px',
-            'background-color':'rgba(112, 114, 117, 0.4)',
+            'background-color':'rgba(112, 114, 117, 0.9)',
             'text-align':'center',
             'position':'relative'
         });
