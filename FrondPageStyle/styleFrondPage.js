@@ -55,7 +55,7 @@ $(document).ready(function(){
             'border-radius':'50px',
             'margin':'0 auto',
             'width':'850px',
-            'height':'600px',
+            'height':'800px',
             'background-color':'rgba(255, 255, 153, 0.9)',
             'text-align':'center',
             'position':'relative',
