@@ -1,5 +1,3 @@
-quiz(easyLevel);
-
 var easyLevel = [{
     "question": "What is the full form of SoftUni?",
     "choices": ["Soft Uniform", "Software Unity", "Software University"],
@@ -21,3 +19,5 @@ var easyLevel = [{
     "choices": ["Carbon Copy", "Creative Commons", "other"],
     "correct": "Carbon Copy"
 }];
+
+quiz(easyLevel);

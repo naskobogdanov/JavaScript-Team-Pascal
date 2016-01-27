@@ -1,5 +1,3 @@
-quiz(mediumLevel);
-
 var mediumLevel = [{
     "question": "What’s the default cluster size in the NTFS file system under Windows?",
     "choices": ["2 KB", "4 KB", "16 KB", "256 KB"],
@@ -47,3 +45,5 @@ var mediumLevel = [{
     "choices": ["Higher pixel count", "Higher pixel density", "Higher contrast and brightness", "Better viewing angles"],
     "correct": "Higher pixel count"
 }];
+
+quiz(mediumLevel);

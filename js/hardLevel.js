@@ -1,5 +1,3 @@
-quiz(hardLevel);
-
 var hardLevel = [{
     "question": "At Dartmouth College in 1964 John Kemeny and Thomas Kurtz invented .... ?",
     "choices": ["ALGOL", "BASIC", "FORTRAN","CHAIN"],
@@ -44,5 +42,6 @@ var hardLevel = [{
     "question": "You could use XSLT to ..?",
     "choices": ["speed up database queries", "encrypt passwords", "transform XML into HTML", "cache html pages"],
     "correct": "transform XML into HTML"
-
 }];
+
+quiz(hardLevel);
