@@ -99,7 +99,7 @@ function quiz(quiz){
     content.innerHTML = "<h2>You've complited the quiz!</h2>" +
         "<h2>Below are your results:</h2>" +
         "<h2>" + score + " out of " + quiz.length + " questions, " +
-        Math.round(score / quiz.length * 100) + "%<h2>";
+        Math.round(score / quiz.length * 100) + "%<h2>" + "<a href=\"index.html\">Go to start</a>";
   }
 
   window.addEventListener("load", askQuestion, false);
