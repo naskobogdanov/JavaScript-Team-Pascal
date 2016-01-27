@@ -40,6 +40,7 @@ $(document).ready(function(){
 
     $('#wrapper')
         .css({
+            'border-radius':'50px',
             'margin':'0 auto',
             'width':'850px',
             'height':'600px',
@@ -87,15 +88,24 @@ $(document).ready(function(){
             'background-color':'#ffccff'
         });
     });
+
     $('.questionButtNO').mouseover(function(){
         $('.questionButtNO').css({
             'background-color':'#6600ff'
         });
     });
+
     $('.questionButtNO').mouseleave(function(){
         $('.questionButtNO').css({
             'background-color':'#99ff33'
         });
     });
+
+//new functionality only with JavaScript
+/*
+    $('.questionButtYes').click(function(){
+        $('main').hide();
+    });
+*/
 });
 
