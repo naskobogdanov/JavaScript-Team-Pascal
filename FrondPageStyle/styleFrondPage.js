@@ -5,29 +5,41 @@ $(document).ready(function () {
     $('#easyLev').hide();
     $('#middleLev').hide();
     $('#hardLev').hide();
-    $('.question').hide();
     $('.begin').hide();
+    $('.rules').hide();
+
+    $('li').click(function(){
+        $('#wrapButtons').toggle(1000);
+        $('.rules').toggle(1000);
+
+    })
 
     $('#lev1').click(function () {
         $('#easyLev').slideToggle(100);
+        $('.questionButtNO').on('click',function(){
+            $('#easyLev').hide();
+        });
 
     });
     $('#lev2').click(function () {
         $('#middleLev').slideToggle(100);
-
+        $('.questionButtNO').on('click',function(){
+            $('#middleLev').hide();
+        });
     });
     $('#lev3').click(function () {
         $('#hardLev').slideToggle(100);
-
+        $('.questionButtNO').on('click',function(){
+            $('#hardLev').hide();
+        });
     });
 
+
 });
 
 
 
-$(document).ready(function(){
-   $('#lev2').add()
-});
+
 
 //It's makes frond page style.
 $(document).ready(function(){
@@ -49,11 +61,25 @@ $(document).ready(function(){
             'position':'relative',
             'color':'#003366'
         });
+    $('#wrapButtons').css({
+        'margin-top':'-20px'
+    });
+
+    $('#nav').css({
+        'list-style':'none',
+        'margin-left':'200px'
+    });
+    $('li').css({
+        display:'inline',
+        'padding':'0px 20px 0px 0px',
+        color:'#602020',
+        'font-weight':'900'
+    });
 
     $('#lev1,#lev2,#lev3')
         .css({
             'font-size':'1.0em',
-            'margin-top':'50px',
+            'margin-top':'30px',
             'margin-left':'30px',
             display: 'flex',
             'border-radius':'20px',
@@ -100,6 +126,8 @@ $(document).ready(function(){
             'background-color':'#99ff33'
         });
     });
+
+
 
 //new functionality only with JavaScript
 /*
