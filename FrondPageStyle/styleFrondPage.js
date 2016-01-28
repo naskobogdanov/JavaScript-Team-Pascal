@@ -13,6 +13,12 @@ $(document).ready(function () {
         $('.rules').toggle(1000);
 
     })
+    //$('li').hover(function(){
+    //    $cursor
+    //
+    //})
+    $('li').css( 'cursor', 'pointer' );
+    $('button').css( 'cursor', 'pointer' );
 
     $('#lev1').click(function () {
         $('#easyLev').slideToggle(100);
