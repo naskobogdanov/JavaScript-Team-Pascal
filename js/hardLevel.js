@@ -7,7 +7,7 @@ var hardLevel = [{
     "choices": ["numbers", "pictures", "headaches", "answers"],
     "correct": "answers"
 }, {
-    "question": "Who invented C++ ?",
+    "question": "Who invented the programming language C++?",
     "choices": ["Larry Wall", "Anders Hejlsberg", "Bjarne Stroustrup", "Alan Cooper"],
     "correct": "Bjarne Stroustrup"
 }, {
